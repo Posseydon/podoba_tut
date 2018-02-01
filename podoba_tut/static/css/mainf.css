@@ -1,0 +1,45 @@
+/*Global styles*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+.alert {
+	margin-top: 10px;
+}
+
+/*Footer styles*/
+#footer {
+	border-top: 1px solid #dddddd;
+	padding-top: 10px;
+}
+
+/*Selector styles*/
+/*#groupe-selector {
+	margin-top: 30px;
+}
+*/
+#groupe-selector select {
+	margin: 0;
+	width: 85%;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	height: 30px;
+	line-height: 30px;
+	color: #555;
+}
+
+label {
+	text-align: right;
+}
+
+#anti-footer {
+	width: 70%;
+	background-color: #ddd;
+	height: 60px;
+	margin-bottom: 20px;
+}
+
+#result {
+	margin-top: 30px;
+	margin-left: 83px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+	<title>Сервіс обліку студентів</title>
+	<meta name="description"
+			value="Система обліку студентів навчального закладу">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/mainf.css">
+
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<h1>Форма редагування студента</h1>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-4">
+			<form class="form-horizontal">
+			  <div class="form-group">
+			    <label class="col-xs-3 control-label">Ім'я</label>
+			    <div class="col-xs-9">
+			      <input type="text" class="form-control" id="inputText3">
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label class="col-xs-3 control-label">По-батькові</label>
+			    <div class="col-xs-9">
+			      <input type="text" class="form-control" id="inputText3">
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label class="col-xs-3 control-label">Прізвище</label>
+			    <div class="col-xs-9">
+			      <input type="text" class="form-control" id="inputText3">
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label class="col-xs-3 control-label">№ Білету</label>
+			    <div class="col-xs-9">
+			      <input type="number" class="form-control" id="inputText3">
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label class="col-xs-3 control-label">Дата Народження</label>
+			    <div class="col-xs-9">
+			      <input type="date" class="form-control" id="inputText3">
+			    </div>
+			  </div>
+			  <div class="form-group">
+				  <label class="col-xs-3">Фото</label>
+					<div class="col-xs-9">
+				  	
+				  	<div class="form-group">
+				  		<div class="col-xs-3">
+				  			<p>Наразі:</p>
+				  		</div>
+				  		<div class="col-xs-9">
+				  			<input type="file" id="exampleInputFile">
+								<div class="checkbox">
+								  <label>
+								    <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+								  </label>
+								</div>
+
+				  		</div>
+				  	</div>
+				  	
+				  	<div class="form-group">
+				  		<div class="col-xs-3">
+				  			<p>Замінити:</p>
+				  		</div>
+				  		<div class="col-xs-9">
+				  			<input type="file" id="exampleInputFile">
+				  		</div>
+				  	</div>
+				  </div>			  
+				</div>
+				<div class="form-group">
+			    <label class="col-xs-3 control-label">Група</label>
+					<div class="col-xs-9" id="groupe-selector">
+						<select>
+							<option value="">Усі Студенти</option>
+							<option value="">МтМ - 21, Подоба Віталій (No 254)</option>
+							<option value="">МтМ - 22, Корост Андрій (No 2123)</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-group">
+			    <label class="col-xs-3 control-label">Додаткові Нотатки</label>
+			    <div class="col-xs-9">
+						<textarea class="form-control" rows="5"></textarea>
+			    </div>
+			  </div>
+			</form>
+		</div>
+	</div>
+	<div class="row" id="anti-footer">
+		<div class="col-xs-12">
+			<div class="col-xs-offset-2 col-xs-10" id="result">
+				<span>
+				<a type="button" class="btn btn-primary btn-sm">Зберегти</a>
+				
+					<a type="button" href="#">Скасувати</a>
+				</span>			
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
+</body>
+</html>
