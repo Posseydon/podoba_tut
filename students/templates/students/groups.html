@@ -54,7 +54,7 @@
 		<div class="row" id="content-columns">
 			<div class="col-xs-12" id="content-column">
 				<h2>База студентів</h2>
-				<a class="btn btn-primary" href="#">Додати Студента</a>
+				<a class="btn btn-primary" href="{% url "students_add" %}">Додати Студента</a>
 			</div>
 		</div>	
 
@@ -82,9 +82,9 @@
 								    <span class="caret"></span>
 								  </button>
 								  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Відвідування</a></li>
-								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Редагувати</a></li>
-								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Видалити</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="{% url "students_edit" 1 %}">Відвідування</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="/journal/1">Редагувати</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="{% url "students_delete" 1 %}">Видалити</a></li>
 								  </ul>
 								</div>
 							</td>
@@ -100,9 +100,9 @@
 								    <span class="caret"></span>
 								  </button>
 								  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Відвідування</a></li>
-								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Редагувати</a></li>
-								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Видалити</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="{% url "students_edit" 1 %}">Відвідування</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="/journal/1">Редагувати</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="{% url "students_delete" 1 %}">Видалити</a></li>
 								  </ul>
 								</div>
 							</td>
@@ -118,9 +118,9 @@
 								    <span class="caret"></span>
 								  </button>
 								  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Відвідування</a></li>
-								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Редагувати</a></li>
-								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Видалити</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="{% url "students_edit" 1 %}">Відвідування</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="/journal/1">Редагувати</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="{% url "students_delete" 1 %}">Видалити</a></li>
 								  </ul>
 								</div>
 							</td>
