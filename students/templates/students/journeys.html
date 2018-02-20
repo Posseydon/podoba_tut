@@ -1,44 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-	<title>Сервіс обліку студентів</title>
-	<meta name="description"
-			value="Система обліку студентів навчального закладу">
-	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+{% extends "students/base.html" %}
 
-	<link rel="stylesheet" type="text/css" href="css/maing.css">
+{% load static from staticfiles %}
 
-</head>
-<body>
-<div class="container-fluid">
-	<!-- Navbar -->
-	<div class="row" id="header">
-		<div class="col-xs-8">
-			<h1>Сервіс обліку студентів</h1>
-		</div>
-			<!-- Selector, input field -->
-		<div class="col-xs-4" id="groupe-selector">
-			<strong>Група</strong>
-			<select>
-				<option value="">Усі Студенти</option>
-				<option value="">МтМ - 21, Подоба Віталій (No 254)</option>
-				<option value="">МтМ - 22, Корост Андрій (No 2123)</option>
-			</select>
-		</div>
-	</div>
-	<!-- Start SubHeader -->
-	<div class="row" id="sub-header">
-		<div class="col-xs-12">
-			<ul class="nav nav-tabs" role="tabelist">
-			  <li role="presentation"><a href="#">Студенти</a></li>
-			  <li role="presentation" class="active"><a href="#">Відвідування</a></li>
-			  <li role="presentation"><a href="#">Групи</a></li>
-			</ul>				
-		</div>
-	</div>
+{% block meta_title %}Студенти{% endblock meta_title %}
+
+{% block title %}Облік відвідування{% endblock title %}
+
+{% block content %}
+
+
 	<!--End SubHeader-->			
 	<div class="row">
 		<div class="col-xs-12">
